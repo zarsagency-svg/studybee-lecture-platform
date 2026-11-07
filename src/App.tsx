@@ -76,7 +76,7 @@ const GOALS: Record<string, [string, string]> = {
   TPSBK: ["Foundation NTSE", "🏆"],
 };
 
-const TELEGRAM_URL = "https://t.me/+oML37V1bL-40ZDNl";
+const TELEGRAM_URL = "https://t.me/zarsstudy";
 
 interface ExtraTeacher {
   name: string;
@@ -430,7 +430,7 @@ function SideDrawer({
               <svg viewBox="0 0 24 24" className="h-5 w-5 fill-honey" aria-hidden={true}>
                 <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.26 13.523l-2.956-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.884.036z" />
               </svg>
-              Join the Hive on Telegram
+              Join MINDSPARK on Telegram
             </a>
             <div className="mx-6 h-px bg-border" />
             <nav className="flex flex-col gap-1 p-4" aria-label="Primary">
