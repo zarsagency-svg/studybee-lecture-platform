@@ -4,6 +4,12 @@ A dark-themed, single-page lecture platform — browse exam goals, discover top 
 
 **Live demo:** [studybee-lecture-platform.vercel.app](https://studybee-lecture-platform.vercel.app)
 
+![Study Bee home](screenshots/home.png)
+
+| Goals grid | Lecture player | Mobile |
+| --- | --- | --- |
+| ![Goals](screenshots/goals.png) | ![Player](screenshots/lecture-player.png) | ![Mobile](screenshots/mobile.png) |
+
 ---
 
 ## ✨ Features
