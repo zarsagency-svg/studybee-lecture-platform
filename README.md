@@ -1,14 +1,14 @@
-# Study Bee 🐝
+# MINDSPARK ⚡
 
-A dark-themed, single-page lecture platform — browse exam goals, discover top educators, save favourites and watch lessons in a built-in player. Light-honey accents on a deep charcoal base, with a full mobile-first layout.
+A red-and-black single-page lecture platform — browse exam goals, discover top educators, save favourites and watch lessons in a built-in player. Vivid red accents and a soft red glow on a deep black base, with a full mobile-first layout.
 
 **Live demo:** [studybee-lecture-platform.vercel.app](https://studybee-lecture-platform.vercel.app)
 
-![Study Bee home](screenshots/home.png)
+![MINDSPARK home](screenshots/home.png)
 
 | Goals grid | Lecture player | Mobile |
 | --- | --- | --- |
-| ![Goals](screenshots/goals.png) | ![Player](screenshots/lecture-player.png) | ![Mobile](screenshots/mobile.png) |
+| ![Educators](screenshots/goal-grid.png) | ![Player](screenshots/lecture-player.png) | ![Mobile](screenshots/mobile.png) |
 
 ---
 
@@ -48,7 +48,7 @@ studybee-lecture-platform/
 └── src/
     ├── main.tsx          # React root
     ├── App.tsx           # The whole single-page experience
-    ├── index.css         # Tailwind import + design tokens (dark/honey theme)
+    ├── index.css         # Tailwind import + design tokens (red/black theme)
     ├── playerAssets.ts    # Logo data-URI, API base, embedded player HTML
     ├── fallbackData.ts    # Bundled offline snapshot of teachers/courses/lectures
     └── utils/
@@ -87,10 +87,10 @@ Theme colours are declared as CSS custom properties in `src/index.css`:
 
 ```css
 :root {
-  --background: #0d0d10;   /* deep charcoal */
-  --foreground: #f4f4f5;
-  --primary:    #ffe97f;   /* honey */
-  --card:       #15151a;
+  --background: #0a0a0a;   /* near-black */
+  --foreground: #e5e5e5;
+  --primary:    #ef4444;   /* MINDSPARK red */
+  --card:       #101010;
   --radius:     1rem;
 }
 ```

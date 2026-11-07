@@ -239,7 +239,7 @@ function BeeLogo({ size = 36, className }: { size?: number; className?: string }
     >
       <img
         src={LOGO_DATA_URL}
-        alt="Study Bee logo"
+        alt="MINDSPARK logo"
         width={size}
         height={size}
         className="relative h-full w-full rounded-[28%] object-cover ring-1 ring-white/15"
@@ -270,8 +270,7 @@ function BrandLockup({
             titleClass
           )}
         >
-          Study{"\u00A0"}
-          <span className="text-honey">Bee</span>
+          Mind<span className="text-honey">Spark</span>
         </span>
         {subtitle && (
           <span className="mt-1 text-[0.6rem] font-semibold uppercase tracking-[0.22em] text-muted-foreground">
@@ -404,13 +403,13 @@ function SideDrawer({
               <div className="flex items-center gap-3.5">
                 <img
                   src={LOGO_DATA_URL}
-                  alt="Study Bee"
+                  alt="MINDSPARK"
                   className="h-12 w-12 rounded-[28%] object-cover ring-1 ring-white/15"
                 />
                 <div className="flex flex-col">
                   <h2 className="font-logo text-[1rem] uppercase leading-none tracking-[0.02em]">
                     Study{"\u00A0"}
-                    <span className="text-honey">Bee</span>
+                    Mind<span className="text-honey">Spark</span>
                   </h2>
                 </div>
               </div>
@@ -451,7 +450,7 @@ function SideDrawer({
             </nav>
             <div className="mt-auto px-6 pb-6 pt-2 text-[0.68rem] text-muted-foreground/70">
               <div className="mb-3 h-px bg-border" />
-              <p className="font-mono tracking-wide">© {new Date().getFullYear()} Study Bee</p>
+              <p className="font-mono tracking-wide">© {new Date().getFullYear()} MINDSPARK</p>
             </div>
           </motion.aside>
         </>
@@ -750,10 +749,10 @@ function HomeView({
           <BeeLogo size={92} />
         </div>
         <h1 className="font-display text-4xl font-bold tracking-tight sm:text-5xl">
-          Find your <span className="text-honey">hive</span>.
+          Ignite your <span className="text-honey">mind</span>.
         </h1>
         <p className="mt-3.5 max-w-[540px] text-[0.98rem] leading-relaxed text-muted-foreground">
-          Pick a goal, follow top educators and buzz through every lecture — all in one simple,
+          Pick a goal, follow top educators and stream every lecture — all in one simple,
           clutter-free place.
         </p>
       </section>
@@ -1595,7 +1594,7 @@ export function App() {
 
           <button
             onClick={goHome}
-            aria-label="Study Bee home"
+            aria-label="MINDSPARK home"
             className="focus-honey flex min-w-0 items-center gap-3 rounded-2xl px-1 py-1 text-left"
           >
             <BrandLockup size={38} titleClass="text-[0.95rem] sm:text-[1.05rem]" />
@@ -1731,16 +1730,16 @@ export function App() {
           <div className="flex items-center gap-2.5">
             <img
               src={LOGO_DATA_URL}
-              alt="Study Bee"
+              alt="MINDSPARK"
               className="h-7 w-7 rounded-[28%]"
             />
             <p className="font-logo text-[0.72rem] uppercase tracking-[0.08em]">
               Study{"\u00A0"}
-              <span className="text-honey">Bee</span>
+              Mind<span className="text-honey">Spark</span>
             </p>
           </div>
           <p className="font-mono text-[0.68rem] text-muted-foreground/80">
-            © {new Date().getFullYear()} Study Bee
+            © {new Date().getFullYear()} MINDSPARK
           </p>
         </div>
       </footer>
