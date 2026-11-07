@@ -408,7 +408,6 @@ function SideDrawer({
                 />
                 <div className="flex flex-col">
                   <h2 className="font-logo text-[1rem] uppercase leading-none tracking-[0.02em]">
-                    Study{"\u00A0"}
                     Mind<span className="text-honey">Spark</span>
                   </h2>
                 </div>
@@ -1734,7 +1733,6 @@ export function App() {
               className="h-7 w-7 rounded-[28%]"
             />
             <p className="font-logo text-[0.72rem] uppercase tracking-[0.08em]">
-              Study{"\u00A0"}
               Mind<span className="text-honey">Spark</span>
             </p>
           </div>
